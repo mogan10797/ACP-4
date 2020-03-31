@@ -16,11 +16,11 @@ public class Main {
 
             int cho = scn.nextInt();
             switch (cho) {
-            // case 1:
-            // System.out.println("Car1~~~" + "顏色 : " + "油箱容量 : " + "動力型態 : " + "排氣量 : " +
-            // "出廠年 : ");
-            // Carlists.add((scn.next(),scn.next(),scn.next(),scn.next(),scn.next());
-            // System.out.println(Carlists.get(Carlists.size()-1).showinfo());
+            case 1:
+                // System.out.println("Car1~~~" + "顏色 : " + "油箱容量 : " + "動力型態 : " + "排氣量 : " +
+                // "出廠年 : ");
+                // Carlists.add((scn.next(),scn.next(),scn.next(),scn.next(),scn.next());
+                // System.out.println(Carlists.get(Carlists.size()-1).showinfo());
             case 2:
                 System.out.println("Bus~~~" + "乘客人數 : " + "車門數 : " + "航運公司 : ");
                 Buslists.add(new Bus("乘客人數 : " + scn.next(), "車門數 : " + scn.next(), "航運公司 : " + scn.next()));
